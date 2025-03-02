@@ -1,14 +1,14 @@
 ## [English](/README.md) | [فارسی](/README_fa.md)
 # L2TP/OpenVPN Server with Xray + Rathole + tun2socks Tunnel
 # RTX-VPN = (Rathole-tun2socks-Xray) VPN
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/menu.png)
+![App Screenshot](https://github.com/pouya2000/rtx/refs/heads/main/screenshots/menu.png)
 ## What Does this script do?
 This script provides a solution for setting up and tunneling L2TP/OpenVPN in restricted locations (e.g., Iran, China).
 
-It aims to tunnel traffic via Xray-core in reverse mode (rathole), making the tunnel traffic appear legitimate.
+It aims to tunnel traffic via Xray-core in reverse mode (rathole), making the tunnel traffic appear legitimate.S
 
 ## Diagram:
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/diagram.PNG)
+![App Screenshot](https://github.com/pouya2000/rtx/refs/heads/main/diagram.PNG)
 
 ## How does it work?
 We need two servers: one for incoming L2TP/OpenVPN connections and the other as the endpoint of our connection. The first server (Tunnel Server) will be considered a server with no limit on incoming L2TP/OpenVPN traffic, unlike the Edge Server, which we cannot connect to directly.
@@ -31,7 +31,7 @@ Finally, we use Policy-Based Routing (PBR) to route incoming L2TP/OpenVPN traffi
 https://youtu.be/Djc6CfClCvM
 ## Installation
 ```bash
-git clone https://github.com/Sir-MmD/RTX-VPN.git
+git clone https://github.com/pouya2000/rtx.git
 chmod -R +x RTX-VPN
 cd RTX-VPN
 ./rtxvpn_setup.sh

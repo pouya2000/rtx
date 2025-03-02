@@ -35,7 +35,7 @@
 https://youtu.be/Djc6CfClCvM
 ## نصب
 ```bash
-git clone https://github.com/Sir-MmD/RTX-VPN.git
+git clone https://github.com/pouya2000/rtx.git
 chmod -R +x RTX-VPN
 cd RTX-VPN
 ./rtxvpn_setup.sh
