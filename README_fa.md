@@ -1,7 +1,7 @@
 ## [English](/README.md) | [فارسی](/README_fa.md)
 # L2TP/OpenVPN Server with Xray + Rathole + tun2socks Tunnel
 # RTX-VPN = (Rathole-tun2socks-Xray) VPN
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/menu.png)
+![App Screenshot](https://github.com/pouya2000/rtx/screenshots/menu.png)
 ## این اسکریپت چی هستش؟
 
 این اسکریپت یک راه حل برای راه اندازی تانل و سرور L2TP/OpenVPN در مناطق محدود شده هستش (مثل ایران و چین)
@@ -11,7 +11,7 @@
 و البته دوستانی که نیاز به کانکشن L2TP/OpenVPN برای راه اندازی اینترنت آزاد روی مودم دارند میتونند از این اسکریپت نهایت استفاده رو ببرند!
 
 ## دیاگرام:
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/diagram.PNG)
+![App Screenshot](https://github.com/pouya2000/rtx/diagram.PNG)
 
 ## چطوری کار میکنه؟
 به دو سرور نیاز داریم: یک سرور برای کانکشن ورودی ترافیک L2TP/OpenVPN (سرور ایران) و یکی برای سرور Edge (سرور خارج). سرور اول (سرور تانل) سروری هستش که محدودیتی در اتصال ورودی L2TP/OpenVPN در اون برخلاف سرور Edge (سرور خارج) که نمیشه بصورت مستقیم بهش متصل شد وجود نداره.
@@ -73,9 +73,9 @@ Xray-Core Edge Service: ```xray_edge.service```
 rathole Edge Service: ```rathole_edge.service```
 
 ## تست سرعت: L2TP
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/l2tp/speedtest.jpg)
+![App Screenshot](https://github.com/pouya2000/rtx/screenshots/l2tp/speedtest.jpg)
 ## تست سرعت: OpenVPN
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/openvpn/speedtest.jpg)
+![App Screenshot](https://github.com/pouya2000/rtx/screenshots/openvpn/speedtest.jpg)
 
 ## نکته: پهنای باند اینترنتی که با اون تست شده دارای 35 مگابیت دانلود و 9 مگابیت آپلود بوده
 
