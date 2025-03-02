@@ -67,9 +67,9 @@ Xray-Core Edge Service: ```xray_edge.service```
 rathole Edge Service: ```rathole_edge.service```
 
 ## Speedtest: L2TP
-![App Screenshot](https://github.com/pouya2000/rtx/tree/main/screenshots/l2tp/speedtest.jpg)
+![App Screenshot](https://github.com/pouya2000/rtx/blob/main/screenshots/l2tp/speedtest.jpg)
 ## Speedtest: OpenVPN
-![App Screenshot](https://github.com/pouya2000/rtx/tree/main/screenshots/openvpn/speedtest.jpg)
+![App Screenshot](https://github.com/pouya2000/rtx/blob/main/screenshots/openvpn/speedtest.jpg)
 
 ### Note: The bandwidth of the tested internet connection is 35 Mbps download and 9 Mbps upload
 There are also screenshots of the DNS Leak Test from https://dnsleaktest.com, which can be found inside the 'screenshots' folder
