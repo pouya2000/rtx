@@ -1,0 +1,7 @@
+#Rathole-Tunnel
+[server]
+bind_addr = "0.0.0.0:7081"
+
+[server.services.rathole_tunnel]
+token = "c068303b-50e2-46c1-ac99-8675737c6607"
+bind_addr = "0.0.0.0:7082"

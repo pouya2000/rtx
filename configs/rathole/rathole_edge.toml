@@ -1,0 +1,7 @@
+#Rathole-Edge
+[client]
+remote_addr = "IP:7081"
+
+[client.services.rathole_tunnel]
+token = "c068303b-50e2-46c1-ac99-8675737c6607"
+local_addr = "127.0.0.1:7082"
